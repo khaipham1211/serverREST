@@ -25,7 +25,7 @@
 * {
     "id_pay_member": "student",
     "id_collect_member": "service",
-    "amountofmoney": "120000",
+    "amountofmoney": "1000",
     "type_payment": "-",
     "message": "Done"
 }
