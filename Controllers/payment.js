@@ -18,6 +18,7 @@ router.post('/add',function(req,res,next){
 Transaction.checkServiceStaff(received.id_collect_member,function(err,rows){
                 if(err){
                   res.json(err);
+                }
                 else{ // not error
                   if(rows.length > 0){ // this service staff existed
                     id_service = rows[0]['id_member'];
